@@ -1,0 +1,15 @@
+# Android and Gradle local/build files
+.gradle/
+**/build/
+local.properties
+
+# Rust build output
+/host/target/
+
+# Device backups and personal data
+/backups/
+
+# Large binary/distribution artifacts
+/apps/**/*.apk
+/rom/**/*.zip
+/rom/**/*.img
